@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="db9f9efae43e4c98a1bb3b0ffad32467" Name="Diagram1">
+        <EntityTypeShape EntityType="MagazinModel.Category" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Order" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.PickPoint" Width="1.5" PointX="0.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Producer" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.ProductType" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Role" Width="1.5" PointX="1.5" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Status" Width="1.5" PointX="0.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Supplier" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.Unit" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MagazinModel.User" Width="1.5" PointX="0.75" PointY="19.875" IsExpanded="true" />
+        <AssociationConnector Association="MagazinModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_OrderProducts_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_OrderProducts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Orders_PickPoints" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Orders_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Products_Producers" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Products_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Products_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="MagazinModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
